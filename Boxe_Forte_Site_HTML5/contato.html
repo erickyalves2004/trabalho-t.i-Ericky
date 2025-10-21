@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Boxe Forte — Contato</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="logo">Boxe <span>Forte</span></a>
+      <nav aria-label="Navegação principal">
+        <ul class="nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <h1 id="contact-title">Fale com a gente</h1>
+        <p class="lead">Preencha abaixo que a gente responde em até 48h.</p>
+        <form action="#" method="post" class="contact-form">
+          <div class="form-row"><label for="name">Nome</label><input id="name" name="name" type="text" required></div>
+          <div class="form-row"><label for="email">Email</label><input id="email" name="email" type="email" required></div>
+          <div class="form-row"><label for="phone">Telefone</label><input id="phone" name="phone" type="tel" placeholder="11999999999"></div>
+          <div class="form-row"><label for="message">Mensagem</label><textarea id="message" name="message" rows="5" required></textarea></div>
+          <fieldset><legend>Interesse</legend><label><input type="radio" name="interesse" value="iniciante" checked> Iniciante</label><label><input type="radio" name="interesse" value="avancado"> Avançado</label></fieldset>
+          <div class="form-row"><label><input type="checkbox" name="newsletter" checked> Quero receber novidades</label></div>
+          <button type="submit" class="btn">Enviar</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Boxe Forte — Rua Exemplo, 123 · São Paulo · (11) 99999-9999</p>
+    </div>
+  </footer>
+</body>
+</html>
